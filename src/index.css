@@ -1,0 +1,9 @@
+:root {
+  --grey0: rgb(76,76,76);
+  --grey1: rgb(211,211,211);
+  --grey2: #FAFAFA;
+}
+
+body {
+  margin: 0;
+}

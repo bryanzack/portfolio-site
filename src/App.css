@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Nunito&family=Roboto&display=swap');
+
+.App {
+  //background: grey;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  //flex-direction: row;
+  overflow: hidden;
+}
+
+.description {
+  z-index: 3;
+  background: var(--grey0);
+  //border-right: 15px solid grey;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+}
+
+.first {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  color: var(--grey1);
+  //display: flex;
+  width: 70%;
+  text-align: center;
+  //text-justify: auto;
+  top: -200px;
+}
+.signature {
+  //border: 3px solid black;
+  transform: scale(22%);
+  display: flex; 
+  position: relative;
+  //position: absolute;
+  //justify: left;
+  //color: white;
+  draggable: false;
+  user-select: none;
+}
+
+.icon {
+  //display: flex;
+  //justify: left;
+  transform: scale(20%);
+  margin-top: 400px;
+  opacity: 0;
+}
+
+.pages {
+  position: relative;
+  background: var(--grey1);
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  //align-items: center;
+  //border: 1px solid var(--grey0);
+  overflow-y: scroll;
+  padding-right: 17px;
+  box-sizing: content-box;
+}
+
+.pages-container {
+  position: relative;
+  border-top: 2px solid var(--grey0);
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify: right;
+  width: 72%;
+  top: 30%;
+  left: 18px;
+}
+.page {
+  position: relative;
+  //border: 1px solid black;
+  border-bottom: 2px solid var(--grey0);
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  user-select: none;
+}
+.page h1 {
+  font-size: 30px;
+  color: var(--grey0);
+  cursor: pointer;
+  font-family: 'Manrope', sans-serif;
+}
+.page-contents {
+  border: 2px solid black;
+  height: 200px;
+  width: 100px;
+  margin-top: 5px;
+  position: relative;
+}
+
+#about {
+  z-index: 0;
+}
+#this-site {
+  z-index: 1;
+}
+#league-site {
+  z-index: 2;
+}
