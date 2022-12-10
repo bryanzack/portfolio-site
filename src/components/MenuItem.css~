@@ -1,0 +1,24 @@
+.page {
+  position: relative;
+  //border: 1px solid black;
+  border-bottom: 2px solid var(--grey0);
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  user-select: none;
+}
+.page-title {
+  font-size: 30px;
+  color: var(--grey0);
+  cursor: pointer;
+  font-family: 'Manrope', sans-serif;
+}
+.page-contents {
+  border: 2px solid black;
+  height: 200px;
+  width: 100px;
+  margin-top: 5px;
+  position: relative;
+}

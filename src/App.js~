@@ -35,7 +35,7 @@ export default function App() {
         <div className="pages-container">
           <MenuItem name="About" id="about">
             <Fragment>
-              <p>Test</p>
+              Test
             </Fragment>
           </MenuItem>
 
