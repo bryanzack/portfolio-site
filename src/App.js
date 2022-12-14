@@ -11,7 +11,7 @@ export default function App() {
   const [league, setLeague] = useState(true);  
 
   const activeStyle = {
-    height: '800px',
+    height: '300px',
     transition: 'height 0.5s'
   }
   const normalStyle = {
@@ -33,14 +33,20 @@ export default function App() {
       </div>
       <div className="pages">
         <div className="pages-container">
-          <MenuItem name="About" id="about">
-            <Fragment>
-              <p>Test</p>
-            </Fragment>
-          </MenuItem>
+          <MenuItem 
+            name="About"
+            type="linkedin"
+            link="https://www.linkedin.com/in/bryan-zack-a7947820a/"
+            id="about"
+          />
 
 
-          <MenuItem name="This site" id="this"/>
+          <MenuItem 
+            name="This site" 
+            type="github"
+            link="https://github.com/bryanzack/portfolio-site"
+            id="this"
+          />
           <MenuItem name="League site" id="league"/>
             
           

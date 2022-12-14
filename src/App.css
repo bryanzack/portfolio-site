@@ -84,10 +84,11 @@
   width: 72%;
   top: 30%;
   left: 18px;
+  overflow: hidden;
 }
 
 #about {
-  color: red;
+  //color: red;
 }
 
 #this {
