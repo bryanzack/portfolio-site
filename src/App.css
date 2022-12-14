@@ -15,7 +15,10 @@
   background: var(--grey0);
   //border-right: 15px solid grey;
   width: 30%;
+  height: 100%;
   display: flex;
+  align-items: center;
+  vertical-align: center;
   justify-content: center;
   flex-direction: column;
   position: fixed;
@@ -51,6 +54,7 @@
   //color: white;
   draggable: false;
   user-select: none;
+  top: 300px;
 }
 
 .icon {
@@ -86,17 +90,3 @@
   left: 18px;
   overflow: hidden;
 }
-
-#about {
-  //color: red;
-}
-
-#this {
-  color: blue;
-}
-
-#league {
-  color: green;
-}
-
-

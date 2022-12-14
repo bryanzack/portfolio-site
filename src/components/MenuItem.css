@@ -12,8 +12,9 @@
 .page-header {
   display: flex;
   flex-direction: row;
-  background: var(--grey1);
   height: 80px;
+  width: 100%;
+  justify-content: center;
   //border: 1px solid yellow;
   align-items: center;
 }
@@ -39,7 +40,7 @@
   //background: yellow;
   height: 80%;
   width: 90%;
-  margin-top: 80px;
+  //margin-top: 80px;
   position: relative;
   overflow: hidden;
   font-family: 'Roboto', sans-serif;
@@ -48,7 +49,7 @@
 }
 .me {
   //border: 1px solid black;
-  height: 50%;
+  height: 65%;
   display: flex;
   flex-direction: row;
 }
