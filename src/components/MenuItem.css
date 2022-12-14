@@ -23,7 +23,9 @@
   color: var(--grey0);
   cursor: pointer;
   font-family: 'Manrope', sans-serif;
+
 }
+
 .header-imgs {
   display: flex;
   align-items: center;
@@ -38,7 +40,7 @@
 .page-contents {
   //border: 2px solid black;
   //background: yellow;
-  height: 80%;
+  height: 70%;
   width: 90%;
   //margin-top: 80px;
   position: relative;
@@ -46,11 +48,16 @@
   font-family: 'Roboto', sans-serif;
   font-weight: none;
   color: var(--grey0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .me {
   //border: 1px solid black;
   height: 65%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
 }
 

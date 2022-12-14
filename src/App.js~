@@ -9,17 +9,7 @@ import data from './static/images/data.png';
 import coding from './static/images/coding.png';
 
 export default function App() {
-  const [about, setAbout] = useState(true);
-  const [site, setSite] = useState(true);
-  const [league, setLeague] = useState(true);  
 
-  const activeStyle = {
-    height: '300px',
-    transition: 'height 0.5s'
-  }
-  const normalStyle = {
-    transition: 'height 0.5s',
-  }
 
   return (
     <div className="App">

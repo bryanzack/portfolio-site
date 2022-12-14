@@ -24,14 +24,13 @@ export default function MenuItem(props) {
   }
 
   const activeStyle = {
-    height: '600px',
-    transition: 'height 0.5s'
+    height: '500px',
+    transition: 'all 0.5s ease'
   }
   const normalStyle = {
-    transition: 'height 0.5s',
+    height: '80px',
+    transition: 'all 0.5s ease',
   }
-
-  const thisIsMyCopy = '<div className="page-contents"><p>copy copy copy <strong>strong copy</strong></p></div>';
 
   return (
     <div className="page" style={visible ? activeStyle : normalStyle}>
