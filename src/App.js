@@ -9,7 +9,17 @@ import data from './static/images/data.png';
 import coding from './static/images/coding.png';
 
 export default function App() {
+  const [about, setAbout] = useState(true);
+  const [site, setSite] = useState(true);
+  const [league, setLeague] = useState(true);  
 
+  const activeStyle = {
+    height: '300px',
+    transition: 'height 0.5s'
+  }
+  const normalStyle = {
+    transition: 'height 0.5s',
+  }
 
   return (
     <div className="App">
@@ -39,7 +49,7 @@ export default function App() {
             id="this"
             imageOnLeft="false"
             image={coding}
-            text="Using basic React.js features such as conditional rendering, hooks, states, components, states, and props, I created this simple website to showcase some of my capabilities. Unlike the next project, which uses ES6 class based components, this project was made using functional components, and the syntaxes that go with it."
+            text="Using basic React.js features, I created this simple website to showcase some of my capabilities. Unlike the next project, which uses ES6 class based components, this project was made using functional components, and the syntaxes that go with it."
           />
           <MenuItem 
             name="League site"
@@ -48,7 +58,7 @@ export default function App() {
             id="league"
             imageOnLeft="true"
             image={data}
-            text="This project uses React.js & Express.js to let the user request their most recent 10 games of League of Legends from their official API, then displays them in an organized fashion. This project taught me about managing many states at a time, and also relied heavily on rendering batches of components based on json request response."
+            text="This project uses React.js and Express.js to serve the user a detailed summary of their last 10 games of League of Legends. The site works by letting the user request an Express.js api endpoint, parsing the query parameters from the request, then using those same parameters to send additional requeststo various official League of Legends API endpoints. Being my first React.js project, I learned the importance of components when dealing with 'large' amounts of data as well as basic concepts such as state management and conditional rendering. For a more in-depth description of this project, check out the README.md that can be found in the projects Github repository."
           /> 
         </div>
       </div>
