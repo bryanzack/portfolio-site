@@ -15,12 +15,12 @@ export default function MenuItem(props) {
  
   const activeHeader = {
     opacity: 1,
-    transition: 'all 0.5s'
+    transition: 'opacity 0.5s'
   }
 
   const normalHeader = {
     opacity: 0,
-    transition: 'all 0.5s'
+    transition: 'opacity 0.5s'
   }
 
   const activeStyle = {
