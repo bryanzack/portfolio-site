@@ -3,6 +3,7 @@ import './MenuItem.css';
 import bryan from '../static/images/bryan.png';
 import github from '../static/images/github-mark.png';
 import linkedin from '../static/images/linkedin.png';
+import arrow from '../static/images/arrow.png';
 
 export default function MenuItem(props) {
   const [visible, setVisible] = useState(false);
@@ -46,25 +47,25 @@ export default function MenuItem(props) {
         <div className="me">
           {props.imageOnLeft === "true"
             ?
-              <>
+              <div className="me-contents">
                 <div className="me-text">
                   <p>{props.text}</p>
                 </div>
                 <div className="me-image">
                   <img className="pageimg" src={props.image} alt="tst" />
                 </div>
-              </>
+              </div>
             : 
-              <>
+              <div className="me-contents">
                 <div className="me-image">
                   <img className="pageimg" src={props.image} alt="tst"/>
                 </div>
                 <div className="me-text">
                   <p>{props.text}</p>
                 </div>
-              </>} 
+              </div>} 
         </div>
-      </div>
+      </div> 
     </div>
   )
 }
