@@ -58,7 +58,7 @@ export default function App() {
             id="league"
             imageOnLeft="true"
             image={data}
-            text="This project uses React.js and Express.js to serve the user a detailed summary of their last 10 games of League of Legends. The site works by letting the user request an Express.js api endpoint, parsing the query parameters from the request, then using those same parameters to send additional requeststo various official League of Legends API endpoints. Being my first React.js project, I learned the importance of components when dealing with 'large' amounts of data as well as basic concepts such as state management and conditional rendering. For a more in-depth description of this project, check out the README.md that can be found in the projects Github repository."
+            text="This project uses React.js and Express.js to serve the user a detailed summary of their last 10 games of League of Legends. The site works by letting the user request an Express.js api endpoint, parsing the query parameters from the request, then using those same parameters to send additional requests to various official League of Legends API endpoints. Being my first React.js project, I learned the importance of components when dealing with 'large' amounts of data as well as basic concepts such as state management and conditional rendering. For a more in-depth description of this project, check out the README.md that can be found in the projects Github repository."
             applink="https://league-site.herokuapp.com/"
           /> 
         </div>
